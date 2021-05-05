@@ -1,0 +1,91 @@
+/* setup css */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    color: #343433;
+}
+
+.header{
+    font-size: 16px;
+    background-color: #F1EEEA;
+    padding: 8px 0px;
+    height: 84px;
+    display: flex;
+}
+
+.header ul {
+    text-align: center;
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+}
+
+.header li{
+    font-size: 20px;
+    line-height: 84px;
+    list-style-type: none;
+
+}
+
+.header li a{
+    text-decoration: none;
+    color: #000;
+    margin: 0px 24px;
+    padding: 2px 0px;
+    
+}
+
+
+.logo{
+    font-weight: 600;
+    color: rgba(155, 150, 150, 0.8);
+    line-height: 84px;
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.header  a:hover{
+    text-decoration: olive;
+    border-style: none none solid none;
+    border-color: #b69b74;
+    border-width: 2px;
+}
+
+.header-buynow{
+    padding: 10px 26px !important;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb(129, 104, 67);
+    letter-spacing: 5px;
+}
+
+.header-buynow:hover{
+    background-color: rgb(129, 104, 67);
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb(129, 104, 67);
+    letter-spacing: 5px;
+}
+
+.livedemo{
+    position: relative;
+}
+
+.sub-live1{
+    position: absolute;
+    display: none;
+}
+
+.livedemo:hover .sub-live1{
+    display: block;
+    background-color: #F1EEEA;
+    top: 92px;
+}
